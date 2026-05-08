@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ap",
     "maintainers": [
       {
@@ -16,111 +16,253 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ap",
-    "name": "",
-    "aliases": [],
+    "name": "Ap (Apas)",
+    "aliases": [
+      { "name": "Āpas", "language": "Vedic Sanskrit", "meaning": "'the waters' (plural)" },
+      { "name": "Āpaḥ", "language": "Sanskrit", "meaning": "Vocative/nominative plural form of the deified waters" },
+      { "name": "Apah", "language": "Sanskrit", "meaning": "Common transliteration" },
+      { "name": "Apām Napāt", "language": "Vedic Sanskrit", "meaning": "'Offspring of the waters' — closely related Vedic deity" },
+      { "name": "Āp", "language": "Hindi", "meaning": "Modern descendant of the Vedic word for water" },
+      { "name": "Āb", "language": "Persian", "meaning": "Cognate Iranian form" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Vedic water deities / personifications of the waters",
     "tags": [
-      "folklore",
-      "mythology"
+      "vedic",
+      "hinduism",
+      "water-deity",
+      "indo-european",
+      "rigveda",
+      "panchamahabhuta",
+      "south-asia"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "Ap (Vedic Sanskrit áp-, plural āpas) is the Vedic Sanskrit word for water and, in Hindu religious tradition, the personified deification of the waters as a group of female deities celebrated in the Rigveda and Atharvaveda.",
+      "full": "Ap (Vedic Sanskrit áp-) is the Vedic and Sanskrit word for water. In its plural form āpas (sometimes reanalysed as singular āpa-), it denotes both water as a substance and the waters as a divine collective. The Apas are addressed as goddesses in several Rigvedic hymns (notably 7.49, 10.9, 10.30, and 10.137) and in the Atharvaveda, where they are credited with purification, fertility, healing, and the removal of sin. As one of the Panchamahabhuta — the five great elements (earth, water, fire, air, space) of classical Hindu philosophy — Ap is a foundational metaphysical category. The Apas are also closely linked to two other Vedic figures: Apām Napāt ('child of the waters'), associated with Agni, and Varuṇa, called Apām Adhipati ('Lord of the Waters'). The word descends from Proto-Indo-European *hxap, surviving in Hindi as āp and Persian as āb."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Vedic Sanskrit áp- 'water', from Proto-Indo-European *hxap 'water'. Cognate with Avestan āp-, Old Persian āpiš, and Hittite ḫapa-.",
+      "meaning": "'Water' as substance; in plural and divinised form, 'the waters' as a group of goddesses.",
+      "first_use": "Rigveda (composed c. 1500–1200 BCE), in hymns to āpas (the waters)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Personified element",
+      "subtype": "Water deities (collective)",
+      "variant": "Vedic / Hindu"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "varuna", "name": "Varuṇa", "relationship": "related", "description": "Vedic god called Apām Adhipati, 'Lord of the Waters'" },
+      { "id": "apam-napat", "name": "Apām Napāt", "relationship": "related", "description": "Vedic deity, 'Child of the Waters', closely associated with Agni and the Avestan Apąm Napāt" },
+      { "id": "agni", "name": "Agni", "relationship": "related", "description": "Vedic fire god identified in some hymns as Apām Napāt (offspring of the waters)" },
+      { "id": "panchamahabhuta", "name": "Panchamahabhūta", "relationship": "superset", "description": "The five great elements; Ap is one of them" },
+      { "id": "saraswati", "name": "Sarasvatī", "relationship": "similar", "description": "Vedic river goddess, a more individuated personification of the waters" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["clear / luminous (in poetic invocations)"],
+      "features": [
+        { "feature": "Plural feminine form", "description": "Always invoked in the plural āpas; the Vedic poets address them as a sisterhood of goddesses", "frequency": "always" },
+        { "feature": "Maternal aspect", "description": "Praised as 'mothers' in the Rigveda; sources of life, healing, and immortality (amṛta)", "frequency": "common" },
+        { "feature": "Cleansing aspect", "description": "Held to remove ritual and moral pollution; central to ritual ablution", "frequency": "always" }
+      ],
+      "morphology": "Non-anthropomorphic in the main Rigvedic passages: the Apas are the rivers, rains, and cosmic waters themselves, addressed as a personified collective. Later iconography of related figures (Sarasvatī, Gaṅgā) gives them anthropomorphic form."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Purification", "description": "The Apas wash away physical and ritual impurity; the Apām Sūkta is recited during ritual bathing", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "Healing", "description": "Atharvaveda hymns invoke the Apas to heal disease and avert misfortune", "frequency": "common", "evidence_level": "documented" },
+      { "ability": "Fertility", "description": "As rains and rivers, the Apas sustain crops, herds, and human prosperity", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "Connection to soma and amṛta", "description": "Identified with the cosmic waters that nourish soma and the gods' immortality", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "colony",
+      "habitat_preference": [
+        "rivers (especially the Sapta-Sindhu, the seven rivers of the Vedic homeland)",
+        "rain and clouds",
+        "wells and springs",
+        "the cosmic ocean"
+      ],
+      "diet": "Not applicable",
+      "patterns": [
+        "Invoked at dawn and during ritual ablution",
+        "Addressed as 'mothers' and 'sisters' in Vedic poetry",
+        "Central to the Apāṃ Sūkta (RV 10.9), one of the most-recited Vedic hymns to water"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The cult of the Apas belongs to the Vedic and broader Hindu religious tradition of the Indian subcontinent. Cognate water-deity traditions exist in the closely related Indo-Iranian (Avestan) religion.",
+      "continents": ["Asia"],
+      "countries": ["India", "Nepal", "Iran (Avestan parallel)"],
+      "regions": [
+        "Sapta-Sindhu (the historical Vedic homeland in the northwest Indian subcontinent)",
+        "Greater India",
+        "Iranian plateau (Avestan Apąm Napāt parallel)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Sapta-Sindhu",
+        "location": {
+          "description": "The 'land of the seven rivers' in the Vedic geography of the northwest Indian subcontinent",
+          "country": "India / Pakistan",
+          "region": "Indus and Sarasvati basins"
+        },
+        "peak_period": "c. 1500–1000 BCE",
+        "notes": "Heartland of Rigvedic composition; the rivers of this region are addressed as Apas in the Rigveda"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1500 BCE",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Rigveda (hymns to āpas)"
+      },
+      "peak_activity_periods": [
+        { "period": "Vedic period (c. 1500–500 BCE)", "description": "Apas central to ritual and hymnody" },
+        { "period": "Classical Hindu period", "description": "Ap survives as one of the Panchamahabhuta in Sāṃkhya, Vaiśeṣika, and Vedānta" }
+      ],
+      "seasonal_patterns": "Veneration intensifies during the monsoon and at festivals connected to rivers (e.g. Gaṅgā Daśaharā), though these are tied to specific river goddesses rather than the abstract Apas."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indo-Iranian religion. The Vedic Apas have a direct cognate in the Avestan Apō (waters) and in the figure of Apąm Napāt, indicating a shared Indo-Iranian inheritance.",
+      "earliest_accounts": "The Rigvedic hymns to the waters (RV 7.49; 10.9; 10.30; 10.137) and the Atharvaveda's hymns of healing.",
+      "folklore_connections": "Connected to the broader Indo-European tradition of personified waters; the Vedic Apām Napāt corresponds to Avestan Apąm Napāt and to elements of Roman Neptunus."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1500-01-01", "event": "Composition of the Rigveda begins; hymns to āpas (the waters) included", "significance": "First textual attestation of Ap as deified water", "source": "Rigveda" },
+      { "date": "1000-01-01", "event": "Atharvaveda compiled with extensive water-healing hymns", "significance": "Develops Apas's role in healing and purification", "source": "Atharvaveda" },
+      { "date": "0500-01-01", "event": "Brāhmaṇa and early Upaniṣadic literature integrates Ap into the elemental scheme", "significance": "Ap becomes one of the five great elements", "source": "Brāhmaṇa literature" },
+      { "date": "0200-01-01", "event": "Sāṃkhya and Vaiśeṣika philosophical schools formalise Panchamahabhūta", "significance": "Ap (water) embedded as one of the five elements in classical Hindu metaphysics", "source": "Sāṃkhya-kārikā; Vaiśeṣika-sūtra" }
+    ],
+    "modern_era": "Ap as a stand-alone deity is rarely venerated outside specialist Vedic ritual today; its theological functions are largely absorbed into the cults of individuated river goddesses (Gaṅgā, Yamunā, Sarasvatī) and into the recitation of the Apāṃ Sūkta during ritual ablution. The concept of ap as one of the Panchamahabhūta remains foundational in Hindu philosophy, ayurveda, and yoga."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1500 BCE", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ap-evidence-rigveda",
+        "type": "religious text",
+        "name": "Rigvedic hymns to the waters",
+        "date": "c. 1500–1200 BCE",
+        "description": "Several Rigvedic hymns are addressed directly to the waters as goddesses, including 7.49 ('Forth from the middle of the flood the waters'), 10.9, 10.30, and 10.137.",
+        "status": "verified",
+        "analysis": "Foundational textual evidence for the deification of water in Vedic religion.",
+        "source": "Rigveda (Sanskrit; Griffith translation 1896)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
+    "scientific": [
+      {
+        "name": "Indo-European inheritance",
+        "description": "Comparative philology argues the Vedic Apas, Avestan Apō and Apąm Napāt, and elements of Roman Neptunus reflect a shared Proto-Indo-European tradition of deified waters.",
+        "proponents": ["Georges Dumézil", "Jaan Puhvel", "Stephanie W. Jamison"],
+        "evidence_cited": ["Cognate names (āp-/āp-/Neptūnus)", "Parallel mythic functions of water deities across Indo-European traditions"]
+      },
+      {
+        "name": "Functional deification of essential resource",
+        "description": "Mainstream history-of-religions view: deification of the waters reflects the centrality of rivers, monsoon, and ritual ablution in early Indian and Iranian agrarian society.",
+        "proponents": ["Wendy Doniger", "Michael Witzel"],
+        "evidence_cited": ["Sapta-Sindhu river geography", "Persistent ritual centrality of water in Hindu and Zoroastrian practice"]
+      }
+    ],
     "skeptical": []
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Recitation of the Apāṃ Sūkta (RV 10.9) during ritual bathing",
+        "Pouring of water (tarpaṇa) as an offering to ancestors and deities",
+        "Sandhyāvandanam — the Vedic twice-daily water ritual",
+        "Pilgrimage to confluences (saṅgam) and sacred rivers"
+      ],
+      "stories": [
+        "RV 7.49: 'Forth from the middle of the flood the Waters'",
+        "RV 10.9: 'O Waters, ye are beneficent'",
+        "Apām Napāt myth (RV 2.35) in dialogue with Avestan Apąm Napāt"
+      ],
+      "beliefs": "Water in Hindu tradition is held to be intrinsically sacred and purifying; this belief descends in continuous ritual practice from the Vedic veneration of the Apas."
+    },
+    "indigenous": {
+      "cultures": ["Vedic / Brahmanical Hindu"],
+      "significance": "Foundational to the Vedic ritual order and to the elemental scheme of classical Hindu philosophy.",
+      "sensitivity_note": "Ap is a living religious concept in contemporary Hinduism, not a mythological curiosity; cite Sanskrit primary sources where possible.",
+      "respect_guidelines": "Use diacritics where appropriate (Āpas, Apām Napāt); distinguish between the Vedic deity and the philosophical element."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Hymns of the Rigveda — Ralph T. H. Griffith (1896)",
+        "The Rigveda: A Guide — Joel P. Brereton & Stephanie W. Jamison (2020)",
+        "The Hindus: An Alternative History — Wendy Doniger (2009)"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "music": [
+        "Vedic chant traditions of the Apāṃ Sūkta"
+      ],
+      "other": [
+        "Daily ritual bathing (snāna) in Hindu observance",
+        "Pilgrimage to sacred rivers"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Stephanie W. Jamison", "affiliation": "UCLA (Indo-European studies)", "contribution": "Co-translator of the standard modern English Rigveda; works extensively on Vedic ritual including the waters", "period": "1980s–present" },
+      { "name": "Joel P. Brereton", "affiliation": "University of Texas at Austin", "contribution": "Co-translator of the modern Rigveda translation; studies of Vedic theology", "period": "1980s–present" },
+      { "name": "Michael Witzel", "affiliation": "Harvard University (Sanskrit)", "contribution": "Vedic philology and history of religion including water rituals", "period": "1980s–present" },
+      { "name": "Ralph T. H. Griffith", "affiliation": "Government Sanskrit College, Benares (19th c.)", "contribution": "First widely-circulated English translation of the Rigveda", "period": "1870s–1896" }
+    ],
+    "organizations": [
+      { "name": "American Oriental Society", "url": "https://www.americanorientalsociety.org", "focus": "Scholarly study of Asian languages and religions including Vedic" },
+      { "name": "International Association of Sanskrit Studies", "url": "https://sanskritstudies.org", "focus": "Sanskrit studies including Vedic literature" }
+    ],
+    "ongoing_studies": "Ongoing philological and history-of-religions work on Vedic water hymns; the Jamison & Brereton (2014) Rigveda translation has renewed Anglophone academic engagement with figures like the Apas and Apām Napāt."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-ap", "type": "website", "title": "Ap (water)", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ap_(water)", "accessed": "2026-05-07" },
+    { "id": "griffith-1896", "type": "book", "title": "The Hymns of the Rigveda", "authors": ["Ralph T. H. Griffith"], "publication": "E. J. Lazarus", "date": "1896" },
+    { "id": "jamison-brereton-2014", "type": "book", "title": "The Rigveda: The Earliest Religious Poetry of India", "authors": ["Stephanie W. Jamison", "Joel P. Brereton"], "publication": "Oxford University Press", "date": "2014", "isbn": "978-0199370184" },
+    { "id": "doniger-2009", "type": "book", "title": "The Hindus: An Alternative History", "authors": ["Wendy Doniger"], "publication": "Penguin Press", "date": "2009", "isbn": "978-1594202056" },
+    { "id": "macdonell-1898", "type": "book", "title": "Vedic Mythology", "authors": ["Arthur Anthony Macdonell"], "publication": "Karl J. Trübner (Strassburg)", "date": "1898" }
+  ]
 }
